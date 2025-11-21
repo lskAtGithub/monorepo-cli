@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "lerna-init": "lerna init",
-    "lerna-create": "lerna create"
+    "lerna-create": "lerna create",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.4.1",
   "devDependencies": {
-    "lerna": "^9.0.1"
+    "@types/node": "^24.10.1",
+    "lerna": "^9.0.1",
+    "typescript": "^5.9.3"
   }
 }
