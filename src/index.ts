@@ -1,11 +1,4 @@
-export const a = () => {
-  console.log('adjddj');
-};
-
-export const b = () => {
-  console.log('aaaaaaaa file');
-};
-import { a } from './a';
+import { a } from './test1';
 
 export default function main() {
   a();

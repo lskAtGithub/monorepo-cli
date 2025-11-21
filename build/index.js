@@ -1,18 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.b = exports.a = void 0;
 exports.default = main;
-const a = () => {
-    console.log('adjddj');
-};
-exports.a = a;
-const b = () => {
-    console.log('aaaaaaaa file');
-};
-exports.b = b;
-const a_1 = require("./a");
+const test1_1 = require("./test1");
 function main() {
-    (0, exports.a)();
+    (0, test1_1.a)();
     console.log('main');
 }
 main();
