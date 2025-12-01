@@ -1,0 +1,11 @@
+{
+  "name": "@monorepo-cli/components",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build:esm": "tsc -b tsconfig.esm.json",
+    "build:cjs": "tsc -b tsconfig.cjs.json",
+    "build": "pnpm run build:esm && pnpm run build:cjs"
+  }
+}
