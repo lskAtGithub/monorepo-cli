@@ -1,11 +1,11 @@
-# `@components/core`
+# `@components/utils`
 
 > TODO: description
 
 ## Usage
 
 ```
-const core = require('@components/core');
+const utils = require('@components/utils');
 
 // TODO: DEMONSTRATE API
 ```

@@ -6,7 +6,7 @@
   "scripts": {
     "lerna-init": "lerna init",
     "lerna-create": "lerna create",
-    "build": "tsc"
+    "build": "turbo run build"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,12 @@
   "devDependencies": {
     "@types/node": "^24.10.1",
     "lerna": "^9.0.1",
+    "turbo": "^2.6.1",
     "typescript": "^5.9.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "nx"
+    ]
   }
 }
